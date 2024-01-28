@@ -24,8 +24,8 @@ describe('DOM', () => {
 		const subtitleEl = createElement('p', 'highlight', 'Lorem ipsum');
 		document.body.appendChild(subtitleEl);
 
-		const issubtitleElExist = !!document.querySelector('.highlight');
-		assert.ok(issubtitleElExist);
+		const isSubtitleElExist = !!document.querySelector('.highlight');
+		assert.ok(isSubtitleElExist);
 	});
 
 	it("should be able to return element attribute data via 'createElementAttribute' function", () => {
